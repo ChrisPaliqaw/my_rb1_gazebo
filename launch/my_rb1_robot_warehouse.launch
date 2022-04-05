@@ -18,7 +18,7 @@
 
     <arg name="rb1_x" default="-0.4"/>
     <arg name="rb1_y" default="-1.4"/>
-    <arg name="rb1_z" default="0"/>
+    <arg name="rb1_z" default="0.0"/>
 
     <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
           args="-urdf -param robot_description -model my_robot -x $(arg rb1_x) -y $(arg rb1_y) -z $(arg rb1_z)" />
