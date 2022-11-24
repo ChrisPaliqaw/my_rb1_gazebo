@@ -11,7 +11,7 @@
 
 After compiling this project and its dependencies using `catkin build`, run
 ```
-source ~/simulation_ws/devel/setup.bash
+export ROS_PACKAGE_PATH='/home/user/catkin_ws/src:/opt/ros/noetic/share:/home/user/simulation_ws/src'
 source ~/catkin_ws/devel/setup.bash
 roslaunch my_rb1_gazebo my_rb1_robot_warehouse.launch
 ```
