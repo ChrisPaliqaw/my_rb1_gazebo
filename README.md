@@ -30,7 +30,7 @@ angular:
   y: 0.0
   z: 0.1"
 ```
-In the spin window, after killing the `rostopic pub` command above with CTRL-C, you can run
+In the spin window, after killing the `rostopic pub` with CTRL-C, you can run
 ```
 rostopic echo /scan -n1
 ```
