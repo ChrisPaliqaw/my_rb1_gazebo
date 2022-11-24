@@ -1,5 +1,7 @@
 # my_rb1_gazebo
 
+![The simulated RB1 scans the warehouse in Gazebo](rb1_gazebo_laser_scan.png)
+
 ## Dependencies
 
 - [warehouse_robot_lab](https://rodrigo55@bitbucket.org/theconstructcore/warehouse_robot_lab.git)
